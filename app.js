@@ -1,45 +1,50 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
+    firstName: "Jan",
+    lastName: "Maier",
+    description: "Je viens journaliste en presse écrite et numérique à l'Ecole de Journalisme de Sciences Po.",
     photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    twitter: "JanH_Maier",
+    github: "JanMaier",
+    mail: "janhendrik.maier@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
+      dateBegin: "2017",
+      dateEnd: "2017",
+      name: "Die Zeit Paris",
+      title: "Journaliste stagiaire",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }, {
-      dateBegin: "Été 2013",
-      dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      dateBegin: "2016",
+      dateEnd: "2017",
+      name: "Süddeutsche Zeitung",
+      title: "Journaliste local",
+      description: "Lorem...."
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "2015",
+      dateEnd: "2016",
+      name: "Mittelbayerische Zeitung",
+      title: "Journalisme stagiare",
+      description: "Lorem"
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2016",
+      dateEnd: "Today",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2011",
+      dateEnd: "2014",
+      name: "Bachelor Deutsch-Französische Studien",
+      university: "Universität Regensburg"
+    }, {
+      dateBegin: "2011",
+      dateEnd: "2014",
+      name: "Licence d'Etudes Franco-Allemandes",
+      university: "Université Blaise Pascal Clermont-Ferrand II"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Français"],["Allemand"],["Anglais"]
+    skills: ["HTM 5", "Adobe Audition", "Adobe Premiere", "Atex/Hermes"]
   },
   computed: {
     fullName() {
