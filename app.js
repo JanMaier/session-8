@@ -4,7 +4,7 @@ var app = new Vue({
     firstName: "Jan",
     lastName: "Maier",
     description: "Je viens journaliste en presse écrite et numérique à l'Ecole de Journalisme de Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
+    photo: "URL",
     twitter: "JanH_Maier",
     github: "JanMaier",
     mail: "janhendrik.maier@sciencespo.fr",
@@ -13,7 +13,7 @@ var app = new Vue({
       dateEnd: "2017",
       name: "Die Zeit Paris",
       title: "Journaliste stagiaire",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      description: "Lorem...."
     }, {
       dateBegin: "2016",
       dateEnd: "2017",
@@ -43,7 +43,7 @@ var app = new Vue({
       name: "Licence d'Etudes Franco-Allemandes",
       university: "Université Blaise Pascal Clermont-Ferrand II"
     }],
-    languages: ["Français"],["Allemand"],["Anglais"]
+    languages: ["Français", "Allemand", "Anglais"],
     skills: ["HTM 5", "Adobe Audition", "Adobe Premiere", "Atex/Hermes"]
   },
   computed: {
